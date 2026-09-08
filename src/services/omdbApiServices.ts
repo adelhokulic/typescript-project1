@@ -2,8 +2,8 @@ import axios from "axios";
 import { ApiParametersInterface } from "../interfaces/ApiParametersInterface";
 import { ApiResponseInterface } from "../interfaces/ApiResponseInterface";
 
-const API_URL = process.env.API_URL;
-const API_KEY = process.env.API_KEY;
+const API_URL = "https://www.omdbapi.com/";
+const API_KEY = "422052b2";
 
 function buildURL(params: ApiParametersInterface[]): string {
 	let searchParams = "";
